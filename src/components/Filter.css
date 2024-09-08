@@ -1,0 +1,21 @@
+.filter {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #3c3247;
+    padding: 10px 0;
+  }
+  
+  .filter label {
+    margin-right: 10px;
+    color: white;
+  }
+  
+  .filter select {
+    background-color: #b8a6d1;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  

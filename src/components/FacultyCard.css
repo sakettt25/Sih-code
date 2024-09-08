@@ -1,0 +1,145 @@
+.faculty-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .faculty-card {
+    display: flex;
+    background-color: #e0d6eb;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .faculty-avatar {
+    
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    background-image: url(../profile-image.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    border-radius: 50%;
+
+
+  }
+  
+  .faculty-avatar img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    /* background-image: url(../profile-image.png) */
+  }
+  
+  .faculty-info {
+    margin-left: 20px;
+    flex-grow: 1;
+  }
+  
+  .faculty-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #3c3247;
+  }
+  
+  .faculty-info p {
+    margin: 5px 0;
+    color: #5a5071;
+  }
+  
+  .faculty-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .faculty-buttons button {
+    background-color: #3c3247;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .faculty-buttons button:hover {
+    background-color: #5a5071;
+  }
+
+
+  /* Container for the list of faculty cards */
+.faculty-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Individual faculty card styling */
+  .faculty-card {
+    display: flex;
+    align-items: center;
+    background-color: #e0d6eb;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  /* Avatar styling */
+  .faculty-avatar {
+    flex-shrink: 0;
+  }
+  
+  .faculty-avatar img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Faculty info styling */
+  .faculty-info {
+    margin-left: 20px;
+    flex-grow: 1;
+  }
+  
+  .faculty-info h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #3c3247;
+  }
+  
+  .faculty-info p {
+    margin: 5px 0;
+    color: #5a5071;
+  }
+  
+  /* Buttons styling */
+  .faculty-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .faculty-buttons button {
+    background-color: #3c3247;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .faculty-buttons button:hover {
+    background-color: #5a5071;
+  }
+  
+  /* Responsive design: stack cards vertically on small screens */
+  @media (max-width: 768px) {
+    .faculty-list {
+      grid-template-columns: 1fr; /* Single column layout */
+    }
+  }
+  
