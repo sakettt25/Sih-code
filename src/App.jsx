@@ -25,12 +25,12 @@ function App() {
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
   const backgroundStyle = {
-    background: 'linear-gradient(to bottom right, #000000, #330e62)', // Black to dark purple gradient
+    background: 'linear-gradient(to bottom right, #544364, #330e62)', // gradient
   };
 
   const formStyle = {
-    background: 'linear-gradient(to bottomm right, #4a148c, #6a1b9a)', // Dark purple gradient
-    color: '#fff',
+    background: 'linear-gradient(to bottom right, #D6C6E1, #6a1b9a)', // Gradient with #D6C6E1 and dark purple
+    color: '#000000', // White text color
   };
 
   const togglePasswordVisibility = () => {
